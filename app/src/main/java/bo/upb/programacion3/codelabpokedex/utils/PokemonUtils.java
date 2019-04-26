@@ -15,18 +15,14 @@ public class PokemonUtils {
      */
     public static List<Pokemon> getPokemons() {
         List<Pokemon> pokemons = new ArrayList<>();
-        pokemons.add(new Pokemon(1, "Pikachu", R.drawable.pikachu, "Electric"));
-        pokemons.add(new Pokemon(2, "Bulbasaur", R.drawable.bulbasaur, "Grass"));
-        pokemons.add(new Pokemon(3, "Charmander", R.drawable.charmander, "Fire"));
-        pokemons.add(new Pokemon(4, "Squirtle", R.drawable.squirtle, "Water"));
-        pokemons.add(new Pokemon(5, "Snorlax", R.drawable.snorlax, "Normal"));
-        pokemons.add(new Pokemon(6, "ButterFree", R.drawable.butterfree, "Bug"));
-        pokemons.add(new Pokemon(7, "Ekans", R.drawable.ekans, "Poison"));
-        pokemons.add(new Pokemon(8, "Pidgey", R.drawable.pidgey, "Normal"));
-        pokemons.add(new Pokemon(9, "Rattata", R.drawable.rattata, "Normal"));
-        pokemons.add(new Pokemon(10, "Sandshrew", R.drawable.sandshrew, "Ground"));
-        pokemons.add(new Pokemon(11, "Venonat", R.drawable.venonat, "Bug"));
-        pokemons.add(new Pokemon(12, "Zubat", R.drawable.zubat, "Poison"));
+        pokemons.add(new Pokemon(1, "alitas picantes", R.drawable.alitas, "precio: 30bs"));
+        pokemons.add(new Pokemon(2, "hamburguesa de queso", R.drawable.hamburguesa, "precio: 30bs"));
+        pokemons.add(new Pokemon(3, "tacos de cerdo", R.drawable.tacos, "precio: 40bs"));
+        pokemons.add(new Pokemon(5, "sushi de langostinos", R.drawable.sushi, "precio: 60bs"));
+        pokemons.add(new Pokemon(6, "bife a la parrilla", R.drawable.bife, "precio: 45bs"));
+        pokemons.add(new Pokemon(7, "hotdog con mayonesa y ketchup", R.drawable.hotdog, "precio: 10 bs"));
+        pokemons.add(new Pokemon(9, "ceviche de pejerrey", R.drawable.ceviche, "precio: 35bs"));
+        pokemons.add(new Pokemon(10, "costillas e cerdo a la bbq", R.drawable.costillas, "precio: 40bs"));
         return pokemons;
     }
 }
